@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4 L56 14 V32 C56 46 44 56 32 60 C20 56 8 46 8 32 V14 Z" fill="url(#g)" stroke="#0b1220" stroke-width="1.5"/>
+  <path d="M32 16 L40 22 V32 C40 40 36 46 32 48 C28 46 24 40 24 32 V22 Z" fill="#fbfaf6" opacity="0.95"/>
+  <text x="32" y="36" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="14" fill="#1e3a8a">FIR</text>
+</svg>

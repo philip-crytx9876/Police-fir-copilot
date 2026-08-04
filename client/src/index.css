@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== base ===== */
+html, body, #root {
+  height: 100%;
+}
+body {
+  background:
+    radial-gradient(1200px 600px at 110% -10%, rgba(59, 130, 246, 0.10), transparent 60%),
+    radial-gradient(900px 600px at -10% 110%, rgba(22, 163, 74, 0.08), transparent 60%),
+    #f6f8fd;
+  color: #0b1220;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== components ===== */
+@layer components {
+  /* the "case file" card — folded corner, subtle ridge */
+  .file-card {
+    @apply relative bg-white rounded-xl shadow-file border border-slate-200/70;
+    background-image:
+      linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.95));
+  }
+  .file-card::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 22px; height: 22px;
+    background:
+      linear-gradient(225deg, transparent 0 50%, #eef2ff 50% 100%);
+    border-left: 1px solid rgba(30, 64, 175, 0.12);
+    border-bottom: 1px solid rgba(30, 64, 175, 0.12);
+    border-bottom-left-radius: 6px;
+  }
+  .file-card::after {
+    content: '';
+    position: absolute;
+    top: 10px; right: 10px;
+    width: 6px; height: 6px;
+    border-radius: 9999px;
+    background: #dc2626;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+  }
+
+  /* tabbed pill used in section headers */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.18em] font-semibold text-cop-700;
+  }
+  .eyebrow::before {
+    content: '';
+    @apply inline-block w-4 h-px bg-cop-700;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-3.5 py-2 rounded-lg text-sm font-semibold transition active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-cop-700 text-white hover:bg-cop-800 shadow-sm;
+  }
+  .btn-ghost {
+    @apply btn bg-white text-cop-800 border border-cop-200 hover:bg-cop-50;
+  }
+  .btn-success {
+    @apply btn bg-siren-green text-white hover:bg-green-700 shadow-sm;
+  }
+  .btn-danger {
+    @apply btn bg-siren-red text-white hover:bg-red-700 shadow-sm;
+  }
+  .btn-soft {
+    @apply btn bg-cop-50 text-cop-800 hover:bg-cop-100;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-semibold;
+  }
+  .chip-blue  { @apply chip bg-cop-100 text-cop-800; }
+  .chip-red   { @apply chip bg-red-100 text-red-800; }
+  .chip-green { @apply chip bg-green-100 text-green-800; }
+  .chip-amber { @apply chip bg-amber-100 text-amber-800; }
+  .chip-slate { @apply chip bg-slate-100 text-slate-700; }
+
+  .stamp {
+    @apply inline-flex items-center justify-center px-2.5 py-1 rounded-md text-[11px] font-extrabold tracking-widest uppercase;
+    border: 2px solid currentColor;
+    transform: rotate(-6deg);
+  }
+
+  /* notebook ruled paper */
+  .ruled-paper {
+    background-color: #fbfaf6;
+    background-image:
+      linear-gradient(transparent 31px, rgba(30, 64, 175, 0.18) 32px),
+      linear-gradient(90deg, transparent 39px, rgba(220, 38, 38, 0.18) 40px);
+    background-size: 100% 32px, 100% 100%;
+  }
+
+  .pinboard {
+    background-color: #f3f4f6;
+    background-image:
+      radial-gradient(rgba(30, 64, 175, 0.18) 1px, transparent 1.5px);
+    background-size: 14px 14px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(30, 64, 175, 0.25); border-radius: 4px; }
+  .scrollbar-thin::-webkit-scrollbar-track  { background: transparent; }
+}
+
+/* utility: subtle dot-grid background for hero areas */
+.dotgrid {
+  background-image: radial-gradient(rgba(30, 64, 175, 0.15) 1px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+/* radio-comm style blinking cursor */
+.cursor::after {
+  content: '▍';
+  margin-left: 2px;
+  color: #16a34a;
+  animation: blink 1.2s infinite;
+}

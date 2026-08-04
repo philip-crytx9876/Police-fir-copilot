@@ -1,0 +1,172 @@
+[
+  {
+    "id": "OFF-2018-04412",
+    "name": "Ramil Dizon",
+    "alias": ["Pappu", "RD"],
+    "age": 34,
+    "gender": "M",
+    "height_cm": 175,
+    "weight_kg": 72,
+    "build": "athletic",
+    "complexion": "morena",
+    "identifying_marks": [
+      "skull tattoo on right wrist",
+      "scar above left eyebrow"
+    ],
+    "phone_numbers": ["+63 917-xxx-xx12", "+63 919-xxx-xx34"],
+    "known_associates": ["OFF-2019-02021", "OFF-2020-08817", "OFF-2024-01187"],
+    "address": "Sitio San Roque, Quezon City",
+    "operating_areas": ["Cubao, Quezon City", "General Araneta Ave", "Aurora Blvd"],
+    "modus_operandi": [
+      "Motorcycle follow-and-snatch",
+      "Targets lone women near market and bank areas in the evening",
+      "Uses a motorcycle with a covered or missing plate",
+      "Disposes of gold at pre-arranged drop points in Cubao"
+    ],
+    "previous_offences": [
+      { "fir_no": "FIR/2019/1102", "section": "Art. 294 RPC", "year": 2019, "status": "acquitted" },
+      { "fir_no": "FIR/2020/3304", "section": "Art. 308 RPC, PD 1612", "year": 2020, "status": "convicted" },
+      { "fir_no": "FIR/2022/5508", "section": "Art. 294 RPC", "year": 2022, "status": "at large" }
+    ],
+    "status": "active",
+    "risk_score": 87
+  },
+  {
+    "id": "OFF-2019-02021",
+    "name": "Jayson Cruz",
+    "alias": ["Toto"],
+    "age": 29,
+    "gender": "M",
+    "height_cm": 170,
+    "weight_kg": 65,
+    "build": "slim",
+    "complexion": "fair",
+    "identifying_marks": [
+      "small star tattoo behind right ear",
+      "limps slightly — left leg"
+    ],
+    "phone_numbers": ["+63 918-xxx-xx88"],
+    "known_associates": ["OFF-2018-04412", "OFF-2021-00214"],
+    "address": "Zapote, Bacoor, Cavite",
+    "operating_areas": ["Bacoor public market", "Molino", "Cubao, Quezon City"],
+    "modus_operandi": [
+      "Acts as lookout during snatchings",
+      "Sells stolen gold to small traders in Bacoor"
+    ],
+    "previous_offences": [
+      { "fir_no": "FIR/2019/1102", "section": "Art. 294 RPC", "year": 2019, "status": "acquitted" },
+      { "fir_no": "FIR/2021/4421", "section": "PD 1612", "year": 2021, "status": "convicted" }
+    ],
+    "status": "active",
+    "risk_score": 72
+  },
+  {
+    "id": "OFF-2020-08817",
+    "name": "Vicente Ramos @ Vicky",
+    "alias": ["Vicky", "VR"],
+    "age": 31,
+    "gender": "M",
+    "height_cm": 178,
+    "weight_kg": 80,
+    "build": "heavy",
+    "complexion": "dark",
+    "identifying_marks": [
+      "anchor tattoo on right forearm",
+      "gold chain worn even at hearings"
+    ],
+    "phone_numbers": ["+63 906-xxx-xx01"],
+    "known_associates": ["OFF-2018-04412"],
+    "address": "Tondo, Manila",
+    "operating_areas": ["Divisoria", "Tondo", "Cubao, Quezon City"],
+    "modus_operandi": [
+      "Fence for stolen property",
+      "Moves gold ornaments through couriers to Divisoria traders"
+    ],
+    "previous_offences": [
+      { "fir_no": "FIR/2020/6671", "section": "PD 1612", "year": 2020, "status": "acquitted" }
+    ],
+    "status": "active",
+    "risk_score": 64
+  },
+  {
+    "id": "OFF-2021-00214",
+    "name": "Sandy Meneses",
+    "alias": ["Bogs"],
+    "age": 36,
+    "gender": "M",
+    "height_cm": 165,
+    "weight_kg": 70,
+    "build": "stocky",
+    "complexion": "morena",
+    "identifying_marks": [
+      "tattoo on right wrist (skull)",
+      "broken nose"
+    ],
+    "phone_numbers": ["+63 915-xxx-xx45"],
+    "known_associates": ["OFF-2019-02021"],
+    "address": "Molino, Bacoor, Cavite",
+    "operating_areas": ["Bacoor", "Molino", "Zapote"],
+    "modus_operandi": [
+      "Necklace snatching on foot",
+      "Operates during morning hours 7-9 AM"
+    ],
+    "previous_offences": [
+      { "fir_no": "FIR/2021/4421", "section": "Art. 308 RPC, PD 1612", "year": 2021, "status": "convicted" }
+    ],
+    "status": "released",
+    "risk_score": 55
+  },
+  {
+    "id": "OFF-2022-03319",
+    "name": "Arnel Santiago",
+    "alias": ["Boss"],
+    "age": 27,
+    "gender": "M",
+    "height_cm": 173,
+    "weight_kg": 60,
+    "build": "slim",
+    "complexion": "fair",
+    "identifying_marks": ["none distinctive"],
+    "phone_numbers": ["+63 917-xxx-xx71"],
+    "known_associates": [],
+    "address": "Quiapo, Manila",
+    "operating_areas": ["Quiapo", "Divisoria"],
+    "modus_operandi": [
+      "Mobile phone snatching from jeepney and bus commuters"
+    ],
+    "previous_offences": [
+      { "fir_no": "FIR/2022/5508", "section": "Art. 294 RPC", "year": 2022, "status": "at large" }
+    ],
+    "status": "active",
+    "risk_score": 58
+  },
+  {
+    "id": "OFF-2024-01187",
+    "name": "Dexter Villamor",
+    "alias": ["Dex"],
+    "age": 25,
+    "gender": "M",
+    "height_cm": 174,
+    "weight_kg": 63,
+    "build": "lanky",
+    "complexion": "morena",
+    "identifying_marks": [
+      "dragon tattoo on left forearm",
+      "mole under right eye"
+    ],
+    "phone_numbers": ["+63 921-xxx-xx90"],
+    "known_associates": ["OFF-2018-04412"],
+    "address": "Barangay Commonwealth, Quezon City",
+    "operating_areas": ["Cubao, Quezon City", "General Araneta Ave", "Araneta Center"],
+    "modus_operandi": [
+      "Bag and laptop-bag snatching outside banks and ATMs",
+      "Works with a motorcycle driver in a full-face helmet",
+      "Targets customers right after a cash withdrawal"
+    ],
+    "previous_offences": [
+      { "fir_no": "FIR/2023/2207", "section": "Art. 308 RPC", "year": 2023, "status": "at large" }
+    ],
+    "status": "active",
+    "risk_score": 69
+  }
+]

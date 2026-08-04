@@ -1,0 +1,113 @@
+[
+  {
+    "case_id": "FIR/2023/0411",
+    "registered_at": "2023-04-11T18:45:00+08:00",
+    "station": "Quezon City Police District — Station 2 (Cubao)",
+    "io": "PCpl. R. Santos",
+    "sections": ["Art. 294 RPC (Robbery)", "Art. 308 RPC (Theft)"],
+    "summary": "Chain snatching near the Araneta Center Cubao market around 6:30 PM. Two motorcycle-riding men targeted a woman walking home from work.",
+    "victim": "Maria Dela Cruz",
+    "suspects_mentioned": ["tall man, 5'10\", skull tattoo on right wrist"],
+    "stolen_items": ["gold necklace (~25g)"],
+    "phone_numbers_mentioned": ["+63 917-xxx-xx12"],
+    "events": [
+      { "ts": "2023-04-11T18:20:00+08:00", "label": "Victim leaves her office along General Araneta Ave" },
+      { "ts": "2023-04-11T18:30:00+08:00", "label": "Two motorcycle-riding men seen circling the Cubao market area" },
+      { "ts": "2023-04-11T18:42:00+08:00", "label": "Snatching — gold necklace pulled from victim's neck" },
+      { "ts": "2023-04-11T18:44:00+08:00", "label": "Motorcycle flees towards EDSA, no plate visible" },
+      { "ts": "2023-04-11T20:10:00+08:00", "label": "Complaint recorded at QCPD Station 2" }
+    ]
+  },
+  {
+    "case_id": "FIR/2023/1208",
+    "registered_at": "2023-07-15T08:15:00+08:00",
+    "station": "Bacoor City Police Station",
+    "io": "PSSg. L. Reyes",
+    "sections": ["Art. 308 RPC (Theft)", "Art. 294 RPC (Robbery)"],
+    "summary": "Morning necklace snatching near the Bacoor public market. Single suspect, limping, escaped on foot.",
+    "victim": "Josefina Ramos",
+    "suspects_mentioned": ["stocky man, 5'5\", limping left leg"],
+    "stolen_items": ["gold necklace (~18g)"],
+    "phone_numbers_mentioned": [],
+    "events": [
+      { "ts": "2023-07-15T07:40:00+08:00", "label": "Victim walking towards the jeepney terminal" },
+      { "ts": "2023-07-15T07:50:00+08:00", "label": "Suspect grabs necklace from behind, runs" },
+      { "ts": "2023-07-15T08:00:00+08:00", "label": "Sari-sari store owner sees suspect limping into a nearby alley" },
+      { "ts": "2023-07-15T08:15:00+08:00", "label": "Complaint recorded" }
+    ]
+  },
+  {
+    "case_id": "FIR/2024/0092",
+    "registered_at": "2024-01-22T19:10:00+08:00",
+    "station": "Quezon City Police District — Station 2 (Cubao)",
+    "io": "PCpl. R. Santos",
+    "sections": ["Art. 294 RPC (Robbery)"],
+    "summary": "Repeat necklace snatching in the same Cubao belt. Motorcycle-riding pair, identical MO. Victim's phone recovered later from a Cubao pawnshop.",
+    "victim": "Grace Fernandez",
+    "suspects_mentioned": ["two men on a black motorcycle, no helmets"],
+    "stolen_items": ["gold necklace (~30g)", "iPhone 13"],
+    "phone_numbers_mentioned": ["+63 919-xxx-xx34"],
+    "events": [
+      { "ts": "2024-01-22T19:00:00+08:00", "label": "Two men on a black motorcycle spotted near the Cubao overpass" },
+      { "ts": "2024-01-22T19:05:00+08:00", "label": "Snatching — necklace and phone grabbed" },
+      { "ts": "2024-01-22T19:08:00+08:00", "label": "Motorcycle flees towards EDSA" },
+      { "ts": "2024-01-25T10:30:00+08:00", "label": "Phone IMEI traced to a pawnshop along Aurora Blvd — recovered" },
+      { "ts": "2024-01-25T17:00:00+08:00", "label": "Pawnshop owner identifies suspect from photo" }
+    ]
+  },
+  {
+    "case_id": "FIR/2024/0331",
+    "registered_at": "2024-02-18T17:30:00+08:00",
+    "station": "Manila Police District — Station 2 (Tondo)",
+    "io": "PSI A. Bautista",
+    "sections": ["PD 1612 (Anti-Fencing Law)"],
+    "summary": "Fence arrested in Divisoria with ~120g of unprocessed gold necklaces. Names 'Vicky' as supplier.",
+    "victim": "—",
+    "suspects_mentioned": ["Ramil (arrested)", "Vicky (at large)"],
+    "stolen_items": ["~120g gold necklaces (suspected stolen)"],
+    "phone_numbers_mentioned": ["+63 906-xxx-xx01"],
+    "events": [
+      { "ts": "2024-02-18T15:00:00+08:00", "label": "Tip from a confidential informant about a Divisoria trader" },
+      { "ts": "2024-02-18T16:45:00+08:00", "label": "Stall raided — 120g of gold seized" },
+      { "ts": "2024-02-18T17:30:00+08:00", "label": "Ramil arrested, names 'Vicky' as supplier" },
+      { "ts": "2024-02-19T11:00:00+08:00", "label": "'Vicky' identified as Vicente Ramos @ Vicky" }
+    ]
+  },
+  {
+    "case_id": "FIR/2024/0512",
+    "registered_at": "2024-05-09T14:20:00+08:00",
+    "station": "Quezon City Police District — Station 2 (Cubao)",
+    "io": "PCpl. J. Manalo",
+    "sections": ["Art. 294 RPC (Robbery)", "Art. 308 RPC (Theft)"],
+    "summary": "Bag-snatching outside a bank along General Araneta Ave, Cubao. Two motorcycle-riding men grabbed the victim's sling bag containing a laptop and cash right after a withdrawal.",
+    "victim": "Liza Gonzales",
+    "suspects_mentioned": ["lanky man, 5'9\", dragon tattoo on left forearm", "driver, stocky build, black full-face helmet"],
+    "stolen_items": ["black leather sling bag", "laptop (Lenovo IdeaPad)", "cash (~₱15,000)"],
+    "phone_numbers_mentioned": [],
+    "events": [
+      { "ts": "2024-05-09T14:05:00+08:00", "label": "Victim withdraws cash at a bank branch along General Araneta Ave" },
+      { "ts": "2024-05-09T14:15:00+08:00", "label": "Motorcycle with two riders seen idling near the bank entrance" },
+      { "ts": "2024-05-09T14:19:00+08:00", "label": "Pillion rider grabs sling bag as victim walks to the jeepney stop" },
+      { "ts": "2024-05-09T14:20:00+08:00", "label": "Motorcycle flees towards Gen. Roxas Ave, no plate visible" },
+      { "ts": "2024-05-09T16:00:00+08:00", "label": "Complaint recorded at QCPD Station 2" }
+    ]
+  },
+  {
+    "case_id": "FIR/2024/0678",
+    "registered_at": "2024-06-21T11:05:00+08:00",
+    "station": "Cebu City Police Office — Police Station 1 (Lahug)",
+    "io": "PSI M. Abellana",
+    "sections": ["Art. 315 RPC (Estafa)", "RA 10175 (Cybercrime Prevention Act)"],
+    "summary": "Online-selling scam. Victim paid an online seller via GCash for a phone that was never delivered; seller's account and number went unreachable after payment.",
+    "victim": "Renato Villamor",
+    "suspects_mentioned": ["online seller using the alias 'JM Gadgets PH', profile photo does not match the ID shown at delivery"],
+    "stolen_items": ["₱18,500 GCash payment"],
+    "phone_numbers_mentioned": ["+63 933-xxx-xx45"],
+    "events": [
+      { "ts": "2024-06-20T20:00:00+08:00", "label": "Victim contacts 'JM Gadgets PH' on a marketplace app about a phone listing" },
+      { "ts": "2024-06-20T20:30:00+08:00", "label": "Victim sends ₱18,500 via GCash as agreed full payment" },
+      { "ts": "2024-06-21T09:00:00+08:00", "label": "Seller stops responding; account and number go unreachable" },
+      { "ts": "2024-06-21T11:05:00+08:00", "label": "Complaint recorded; GCash trace request initiated" }
+    ]
+  }
+]

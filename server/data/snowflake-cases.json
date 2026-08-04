@@ -1,0 +1,71 @@
+{
+  "warehouse": "POLICE_INTEL_WH",
+  "environment": "demo",
+  "region": "ap-southeast-1",
+  "cases": [
+    {
+      "case_id": "SNOW-2024-011",
+      "title": "Cubao snatching ring detection",
+      "status": "Open",
+      "risk": "High",
+      "location": "Cubao, Quezon City",
+      "lead_officer": "PSI Maria Dela Cruz",
+      "updated_at": "2026-08-04T09:30:00Z",
+      "metrics": {
+        "matched_offenders": 3,
+        "alerts": 2,
+        "evidence_items": 11,
+        "watchlist_hits": 1
+      },
+      "timeline": [
+        "Case imported from FIR intake stream",
+        "Offender profile matched to historical MO records",
+        "Phone connectivity anomaly flagged in warehouse view",
+        "Evidence bundle prepared for prosecutor review"
+      ],
+      "summary": "A cluster of snatching complaints is being correlated across multiple case records, including repeat offender activity and shared mobile patterns."
+    },
+    {
+      "case_id": "SNOW-2024-022",
+      "title": "Cebu online selling fraud",
+      "status": "Monitoring",
+      "risk": "Medium",
+      "location": "Cebu City",
+      "lead_officer": "PCpl R. Santos",
+      "updated_at": "2026-08-04T08:15:00Z",
+      "metrics": {
+        "matched_offenders": 2,
+        "alerts": 1,
+        "evidence_items": 7,
+        "watchlist_hits": 0
+      },
+      "timeline": [
+        "Cybercrime complaint normalized into warehouse schema",
+        "Device and wallet transaction pattern compared against known fraud clusters",
+        "Victim interviews are queued for follow-up"
+      ],
+      "summary": "A digital fraud case is being linked to repeated victim patterns and transaction anomalies in the same market cluster."
+    },
+    {
+      "case_id": "SNOW-2024-033",
+      "title": "Divisoria stolen-phone network",
+      "status": "Escalated",
+      "risk": "Critical",
+      "location": "Divisoria, Manila",
+      "lead_officer": "PSSg L. Tan",
+      "updated_at": "2026-08-04T07:45:00Z",
+      "metrics": {
+        "matched_offenders": 5,
+        "alerts": 5,
+        "evidence_items": 19,
+        "watchlist_hits": 2
+      },
+      "timeline": [
+        "Case clusters identified using shared phone and location patterns",
+        "High-risk status triggered after repeated watchlist hits",
+        "Investigative tasking routed to anti-snatching unit"
+      ],
+      "summary": "Multiple stolen-phone complaints share a common operating pattern, leading to an escalated multi-case review in the warehouse analysis layer."
+    }
+  ]
+}
